@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BSCountryViewController_Example' do
+  pod 'BSCountryViewController', :path => '../'
+
+  target 'BSCountryViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
