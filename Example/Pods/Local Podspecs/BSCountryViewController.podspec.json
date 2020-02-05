@@ -1,0 +1,22 @@
+{
+  "name": "BSCountryViewController",
+  "version": "0.1.0",
+  "summary": "A short description of BSCountryViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Blazej SLEBODA/BSCountryViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Blazej SLEBODA": "contact@blazejsleboda.fr"
+  },
+  "source": {
+    "git": "https://github.com/Blazej SLEBODA/BSCountryViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BSCountryViewController/Classes/**/*"
+}

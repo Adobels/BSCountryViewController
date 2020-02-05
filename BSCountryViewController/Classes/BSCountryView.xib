@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BSCountryViewController" customModule="BSCountryPickerViewController" customModuleProvider="target">
+            <connections>
+                <outlet property="tabelViewDelegate" destination="zST-Y7-TOq" id="U3T-fh-1Ib"/>
+                <outlet property="tableView" destination="Aei-TR-ZKT" id="72a-i2-wXJ"/>
+                <outlet property="tableViewDataSource" destination="aSx-Dl-BDo" id="rCe-3z-dvH"/>
+                <outlet property="view" destination="iN0-l3-epB" id="epS-Co-8mV"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" interfaceStyle="light" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Aei-TR-ZKT">
+                    <rect key="frame" x="0.0" y="88" width="414" height="788"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="aSx-Dl-BDo" id="IFy-EV-PcE"/>
+                        <outlet property="delegate" destination="zST-Y7-TOq" id="fd1-pI-EGt"/>
+                    </connections>
+                </tableView>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tGO-7N-sXs">
+                    <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <items>
+                        <navigationItem title="Regions" id="1BJ-6n-shP">
+                            <barButtonItem key="leftBarButtonItem" systemItem="done" id="jy5-Ip-Eli">
+                                <connections>
+                                    <action selector="didTapDoneButton" destination="-1" id="Ids-Ni-u4O"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                    <connections>
+                        <outlet property="delegate" destination="bX4-Y5-tBR" id="QSW-IL-RK1"/>
+                    </connections>
+                </navigationBar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Aei-TR-ZKT" firstAttribute="leading" secondItem="Rf1-EU-THw" secondAttribute="leading" id="AHp-wp-yYF"/>
+                <constraint firstAttribute="bottom" secondItem="Aei-TR-ZKT" secondAttribute="bottom" constant="20" symbolic="YES" id="Elw-Ne-eFP"/>
+                <constraint firstItem="tGO-7N-sXs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" symbolic="YES" id="KlE-sX-YGc"/>
+                <constraint firstItem="Rf1-EU-THw" firstAttribute="trailing" secondItem="Aei-TR-ZKT" secondAttribute="trailing" id="ase-aY-DBk"/>
+                <constraint firstItem="Aei-TR-ZKT" firstAttribute="top" secondItem="tGO-7N-sXs" secondAttribute="bottom" symbolic="YES" id="hgI-Mv-5rv"/>
+                <constraint firstAttribute="trailing" secondItem="tGO-7N-sXs" secondAttribute="trailing" symbolic="YES" id="k1Z-kA-p5d"/>
+                <constraint firstItem="tGO-7N-sXs" firstAttribute="top" secondItem="Rf1-EU-THw" secondAttribute="top" id="nEe-J7-tqo"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Rf1-EU-THw"/>
+            <point key="canvasLocation" x="131.8840579710145" y="127.90178571428571"/>
+        </view>
+        <customObject id="zST-Y7-TOq" customClass="CountryTableViewDelegate" customModule="BSCountryPickerViewController" customModuleProvider="target">
+            <connections>
+                <outlet property="delegate" destination="-1" id="ogs-vO-t8N"/>
+            </connections>
+        </customObject>
+        <customObject id="aSx-Dl-BDo" customClass="CountryTableViewDataSource" customModule="BSCountryPickerViewController" customModuleProvider="target"/>
+        <customObject id="bX4-Y5-tBR" customClass="TopAttachedNavigationBarDelagete" customModule="BSCountryPickerViewController" customModuleProvider="target"/>
+        <navigationItem title="Title" id="qcc-Ag-5OV"/>
+    </objects>
+</document>

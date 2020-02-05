@@ -7,18 +7,26 @@
 //
 
 import UIKit
+import BSCountryViewController
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    @IBAction func didTapPresentCountriesPickerButton() {
+        let vc = BSCountryViewController()
+        vc.delegate = self
+        present(vc, animated: true, completion: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
+extension ViewController: BSCountryViewControllerDelegate {
+    func didSelectRegions(_ regions: [String]) {
+        debugPrint("--- didSelectRegions ---")
+        debugPrint(regions)
+    }
+    
+    func didTapDoneButton(with regions: [String]?) {
+        debugPrint("--- didTapDoneButton ---")
+        debugPrint(regions ?? "regions array is nil")
+        dismiss(animated: true, completion: nil)
+    }
+}
