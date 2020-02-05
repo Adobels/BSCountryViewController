@@ -1,0 +1,16 @@
+PODS:
+  - BSCountryViewController (0.1.0)
+
+DEPENDENCIES:
+  - BSCountryViewController (from `../`)
+
+EXTERNAL SOURCES:
+  BSCountryViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BSCountryViewController: 9a88fde4f0f729773cb6d35036509c64343b80c6
+
+PODFILE CHECKSUM: 0faac090edef98d229d748a3cde1aa30f938f46e
+
+COCOAPODS: 1.8.4

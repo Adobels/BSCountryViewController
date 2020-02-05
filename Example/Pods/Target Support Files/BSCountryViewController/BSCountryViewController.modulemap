@@ -1,0 +1,6 @@
+framework module BSCountryViewController {
+  umbrella header "BSCountryViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
