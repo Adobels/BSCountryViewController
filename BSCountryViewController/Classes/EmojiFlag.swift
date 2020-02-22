@@ -7,15 +7,16 @@
 
 import Foundation
 
-class EmojiFlag {
+public class EmojiFlag {
+    
+    public static let emptyReturn = ""
     
     private static let unicodeDictionary: [String:String] = {
         let dic = ["A":"🇦", "B":"🇧", "C":"🇨", "D":"🇩","E":"🇪", "F":"🇫", "G":"🇬", "H":"🇭", "I":"🇮", "J":"🇯", "K":"🇰", "L":"🇱", "M":"🇲", "N":"🇳", "O":"🇴", "P":"🇵","Q":"🇶", "R":"🇷", "S":"🇸","T":"🇹", "U":"🇺", "V":"🇻", "W":"🇼", "X":"🇽", "Y":"🇾", "Z":"🇿"]
         return dic
     }()
     
-    static func emojiFlag(iso31661Alpha2code code: String) -> String {
-        let emptyReturn = ""
+    public static func emojiFlag(iso31661Alpha2code code: String) -> String {
         
         guard code.count == 2 else {
             return emptyReturn

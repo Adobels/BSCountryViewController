@@ -125,14 +125,11 @@
 				FFB67BEC23EAEC5C00F714BB /* BSCountryView.xib */,
 				FFB67BE623EAEC5C00F714BB /* BSCountryViewController.swift */,
 				FFB67BF023EAEC5C00F714BB /* BSCountryViewControllerDelegate.swift */,
-				FFB67BE723EAEC5C00F714BB /* Continent.swift */,
-				FFB67BEA23EAEC5C00F714BB /* ContinentsDataSource.swift */,
-				FFB67BE823EAEC5C00F714BB /* CountryTableViewDataSource.swift */,
 				FFB67BED23EAEC5C00F714BB /* CountryTableViewDelegate.swift */,
-				FFB67BEF23EAEC5C00F714BB /* DataSourceOfCountriesByContinent.swift */,
-				FFB67BE923EAEC5C00F714BB /* EmojiFlag.swift */,
-				FFB67BEE23EAEC5C00F714BB /* NibName.swift */,
-				FFB67BEB23EAEC5C00F714BB /* TopAttachedNavigationBarDelagete.swift */,
+				FF379B5B2401B0A90095B087 /* Entities */,
+				FFB67BEA23EAEC5C00F714BB /* ContinentsDataSource.swift */,
+				FF379B5C2401B22A0095B087 /* DataSource */,
+				FF379B5D2401B2750095B087 /* Helper */,
 				7D4F44642BB58562422FAAAC8A3962A9 /* BSCountryViewController.podspec */,
 				FBF66328A853C28007A8D9F25FC26C3A /* LICENSE */,
 				4D78B6D3CA820BA00CABF7098A420E7E /* README.md */,
@@ -249,6 +246,33 @@
 				B380DBFED5CF93F2ED08474F566E318D /* BSCountryViewController */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FF379B5B2401B0A90095B087 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FFB67BE723EAEC5C00F714BB /* Continent.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		FF379B5C2401B22A0095B087 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				FFB67BE923EAEC5C00F714BB /* EmojiFlag.swift */,
+				FFB67BE823EAEC5C00F714BB /* CountryTableViewDataSource.swift */,
+				FFB67BEF23EAEC5C00F714BB /* DataSourceOfCountriesByContinent.swift */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		FF379B5D2401B2750095B087 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FFB67BEB23EAEC5C00F714BB /* TopAttachedNavigationBarDelagete.swift */,
+				FFB67BEE23EAEC5C00F714BB /* NibName.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

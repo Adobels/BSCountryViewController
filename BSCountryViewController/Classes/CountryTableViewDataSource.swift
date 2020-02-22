@@ -82,7 +82,6 @@ public class CountryTableViewDataSource: NSObject, UITableViewDataSource {
 }
 
 enum Section: Int, CaseIterable {
-    case
-    continents,
-    countries
+    case continents
+    case countries
 }
