@@ -1,13 +1,18 @@
 # BSCountryViewController
 
-[![CI Status](https://img.shields.io/travis/Blazej SLEBODA/BSCountryViewController.svg?style=flat)](https://travis-ci.org/Blazej SLEBODA/BSCountryViewController)
+[![CI Status](https://img.shields.io/travis/Adobels/BSCountryViewController.svg?style=flat)](https://travis-ci.org/Adobels/BSCountryViewController)
 [![Version](https://img.shields.io/cocoapods/v/BSCountryViewController.svg?style=flat)](https://cocoapods.org/pods/BSCountryViewController)
-[![License](https://img.shields.io/cocoapods/l/BSCountryViewController.svg?style=flat)](https://cocoapods.org/pods/BSCountryViewController)
 [![Platform](https://img.shields.io/cocoapods/p/BSCountryViewController.svg?style=flat)](https://cocoapods.org/pods/BSCountryViewController)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+```swift
+    let vc = BSCountryViewController()
+    vc.delegate = self
+    present(vc, animated: true, completion: nil)
+```
 
 ## Requirements
 
