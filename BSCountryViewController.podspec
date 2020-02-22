@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BSCountryViewController'
-  s.version          = '0.1.0'
-  s.summary          = 'Select a country or continent & get a region codes.'
+  s.version          = '1.0.0'
+  s.summary          = 'A standard view controller whose interface lets the user select a country or group of countries.'
 
   s.description      = <<-DESC
 Present a list of continents and countries and when a user select one of them be notified via a delegate protocol. The list is embeded in a UIViewController as UITableView with a UINavigationBar and Done button.
