@@ -1,15 +1,13 @@
 # BSCountryViewController
 
-[![CI Status](https://img.shields.io/travis/Blazej SLEBODA/BSCountryViewController.svg?style=flat)](https://travis-ci.org/Blazej SLEBODA/BSCountryViewController)
+[![CI Status](https://img.shields.io/travis/Adobels/BSCountryViewController.svg?style=flat)](https://travis-ci.org/Adobels/BSCountryViewController)
+[![CI Status](https://img.shields.io/codecov/c/gh/Adobels/BSCountryViewController)](https://codecov.io/gh/Adobels/BSCountryViewController)
 [![Version](https://img.shields.io/cocoapods/v/BSCountryViewController.svg?style=flat)](https://cocoapods.org/pods/BSCountryViewController)
-[![License](https://img.shields.io/cocoapods/l/BSCountryViewController.svg?style=flat)](https://cocoapods.org/pods/BSCountryViewController)
 [![Platform](https://img.shields.io/cocoapods/p/BSCountryViewController.svg?style=flat)](https://cocoapods.org/pods/BSCountryViewController)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements
+
+Minimum: Swift 5.1.0, Xcode 11.0.0, iOS 9.0.0
 
 ## Installation
 
@@ -20,10 +18,14 @@ it, simply add the following line to your Podfile:
 pod 'BSCountryViewController'
 ```
 
-## Author
+## Usage
 
-Blazej SLEBODA, contact@blazejsleboda.fr
+```swift
+    let vc = BSCountryViewController()
+    vc.delegate = self
+    present(vc, animated: true, completion: nil)
+```
 
-## License
+## Screenshot
 
-BSCountryViewController is available under the MIT license. See the LICENSE file for more info.
+![BSCountryViewController screenshot animated gif](BSCountryViewController.gif)
