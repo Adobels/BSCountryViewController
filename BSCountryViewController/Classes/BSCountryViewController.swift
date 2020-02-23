@@ -17,26 +17,32 @@ public class BSCountryViewController: UIViewController {
     var selectedRegions: [String]?
     
     public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        let bundle = Bundle(for: Self.self)
-        super.init(nibName: NibName.countryPickerView.rawValue, bundle: bundle)
+        super.init(
+            nibName: NibName.countryPickerView.rawValue,
+            bundle: Bundle(for: Self.self))
     }
     
     public required init?(coder: NSCoder) {
-        let bundle = Bundle(for: Self.self)
-        super.init(nibName: NibName.countryPickerView.rawValue, bundle: bundle)
+        super.init(
+            nibName: NibName.countryPickerView.rawValue,
+            bundle: Bundle(for: Self.self))
     }
     
     @IBAction func didTapDoneButton() {
-        delegate?.didTapDoneButton?(with: selectedRegions)
+        self.didTapDoneButton(with: selectedRegions)
     }
     
 }
 
 extension BSCountryViewController: BSCountryViewControllerDelegate {
     
+    public func didTapDoneButton(with regions: [String]?) {
+        delegate?.didTapDoneButton?(with: selectedRegions)
+    }
+    
     public func didSelectRegions(_ regions: [String]) {
-        delegate?.didSelectRegions(regions)
         selectedRegions = regions
+        delegate?.didSelectRegions(regions)
     }
     
 }
