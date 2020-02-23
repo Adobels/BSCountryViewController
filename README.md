@@ -6,7 +6,7 @@
 
 ## Requirements
 
-Minimum: Swift 5.1.0, Xcode 11.0.0, iOS 13.0.0
+Minimum: Swift 5.1.0, Xcode 11.0.0, iOS 9.0.0
 
 ## Installation
 
