@@ -11,5 +11,5 @@ language: swift
 # - pod install --project-directory=Example
 script:
 - xcrun simctl list runtimes
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/BSCountryViewController.xcworkspace -scheme BSCountryViewController-Example -sdk iphonesimulator13.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/BSCountryViewController.xcworkspace -scheme BSCountryViewController-Example -destination platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.0 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
