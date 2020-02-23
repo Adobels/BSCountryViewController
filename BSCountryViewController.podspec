@@ -11,7 +11,7 @@ Present a list of continents and countries and when a user select one of them be
   s.author           = { 'Blazej SLEBODA' => 'contact@blazejsleboda.fr' }
   s.source           = { :git => 'https://github.com/Adobels/BSCountryViewController.git', :tag => s.version.to_s }
   
-  s.swift_version	 = '4.2'
+  s.swift_version	 = '5.0'
 
   s.ios.deployment_target = '8.0'
 
