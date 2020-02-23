@@ -8,6 +8,12 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Screenshot
+
+![BSCountryViewController screenshot animated gif](BSCountryViewController.gif)
+
+## Usage
+
 ```swift
     let vc = BSCountryViewController()
     vc.delegate = self
