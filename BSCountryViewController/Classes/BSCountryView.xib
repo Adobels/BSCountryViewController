@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment version="2304" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BSCountryViewController" customModule="BSCountryPickerViewController" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BSCountryViewController" customModule="BSCountryViewController" customModuleProvider="target">
             <connections>
                 <outlet property="tabelViewDelegate" destination="zST-Y7-TOq" id="U3T-fh-1Ib"/>
                 <outlet property="tableView" destination="Aei-TR-ZKT" id="72a-i2-wXJ"/>
@@ -59,13 +59,13 @@
             <viewLayoutGuide key="safeArea" id="Rf1-EU-THw"/>
             <point key="canvasLocation" x="131.8840579710145" y="127.90178571428571"/>
         </view>
-        <customObject id="zST-Y7-TOq" customClass="CountryTableViewDelegate" customModule="BSCountryPickerViewController" customModuleProvider="target">
+        <customObject id="zST-Y7-TOq" customClass="CountryTableViewDelegate" customModule="BSCountryViewController" customModuleProvider="target">
             <connections>
                 <outlet property="delegate" destination="-1" id="ogs-vO-t8N"/>
             </connections>
         </customObject>
-        <customObject id="aSx-Dl-BDo" customClass="CountryTableViewDataSource" customModule="BSCountryPickerViewController" customModuleProvider="target"/>
-        <customObject id="bX4-Y5-tBR" customClass="TopAttachedNavigationBarDelagete" customModule="BSCountryPickerViewController" customModuleProvider="target"/>
+        <customObject id="aSx-Dl-BDo" customClass="CountryTableViewDataSource" customModule="BSCountryViewController" customModuleProvider="target"/>
+        <customObject id="bX4-Y5-tBR" customClass="TopAttachedNavigationBarDelagete" customModule="BSCountryViewController" customModuleProvider="target"/>
         <navigationItem title="Title" id="qcc-Ag-5OV"/>
     </objects>
 </document>

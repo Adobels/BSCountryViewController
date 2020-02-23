@@ -13,7 +13,7 @@ Present a list of continents and countries and when a user select one of them be
   
   s.swift_version	 = '5.1'
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'BSCountryViewController/Classes/**/*'
 end
