@@ -8,25 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0288812A40802E39B4C309104AAAFA66 /* Pods-BSCountryViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DADBA2FBF14B88345E8FF16C11F0A47 /* Pods-BSCountryViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EA7C550E83712EB683B7DB5E38D5052 /* BSCountryViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C316F410843ABACCE1941F62BB9289BF /* BSCountryViewControllerDelegate.swift */; };
+		10D0B8A5C070ED8618944F6B20FC40EE /* BSContryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 489E2E8D3D211C7BDDB28CF7335445B6 /* BSContryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24AD1D2A068F4684A6C7E43C110FC9C1 /* BSCountryViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F663C77459F362CB348205DAC69D561A /* BSCountryViewController-dummy.m */; };
+		2DD5FAC5BED0741E75F36D7E52C56D49 /* BSCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B4B0D6E44732666FFEB0DA2B17F57B /* BSCountryViewController.swift */; };
+		3C678D24EF71B6A5753E54A1EFB28EF8 /* CountryTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F79B3FBE70221F8A640E1F7F31F56E /* CountryTableViewDataSource.swift */; };
+		5E6EC8EF143CA37255F9BE44AFC5527E /* EmojiFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F56E705AAB6E58FB414BA9C03516F0 /* EmojiFlag.swift */; };
+		5E8B0412D70E74D348107C5D23C3360C /* ContinentsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D3F1839FC18BE8F0A7E71384A77262 /* ContinentsDataSource.swift */; };
+		68DE361A70E7C595D232CC2257C1E3AB /* CountryTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0C3D94B2365B282C4CABD214EF4CF3 /* CountryTableViewDelegate.swift */; };
 		77AFFF0ABFFCC1490A4CCF325850C553 /* Pods-BSCountryViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B281F0F333B6508670674DDC884681 /* Pods-BSCountryViewController_Example-dummy.m */; };
-		8A75A2E624A5C19CD77E4787DA67C55E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77F869A5DB2E36351FBC655696B2A426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		867B7F245DD1601C32A00DC443A8DD56 /* BSCountryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7623239134665989DE66B3042D23F19F /* BSCountryView.xib */; };
+		9ECBD6AB97B6662649B746664B01DC13 /* DataSourceOfCountriesByContinent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98742D71621155CE46064D714A20B5D /* DataSourceOfCountriesByContinent.swift */; };
+		A44D9FF2FC647C7F9D14683BC4798862 /* BSCountryViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 743885FDE38C42D46A95E3EF15B75462 /* BSCountryViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A55EB84C8EE54FF1ED255B3D7515B4B2 /* Pods-BSCountryViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30882C254B229820F0FFF67121C3F093 /* Pods-BSCountryViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5A630650584AB60DB735CB027729023 /* BSCountryViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9213B584E36576627F6F6A332F72FC06 /* BSCountryViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B133DDAE5975A67BC4D6FC55104140D7 /* TopAttachedNavigationBarDelagete.swift in Sources */ = {isa = PBXBuildFile; fileRef = B507AD1D34FF74D45116E974CEAE017E /* TopAttachedNavigationBarDelagete.swift */; };
 		B6F1C807F29911916D0DB1E8BB134EE3 /* Pods-BSCountryViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8E299B7AA5AF136EBD90B3ED3C9808 /* Pods-BSCountryViewController_Tests-dummy.m */; };
-		C049D3264C47A7169379F17F3993EA8E /* BSCountryViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC27472D85C2F86464128C757531F58 /* BSCountryViewController-dummy.m */; };
+		B75CC72BABFDCDBF49CF850C82B6611F /* NibName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A0B693236A525BC41D2C60641DE31 /* NibName.swift */; };
 		C73DEC1B7EA22D160F125086EEA3AD8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F8235C3469982C9DBB56FDEC7384645B /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA998AC17EF1A300EF14DE62034BE94 /* Continent.swift */; };
 		FA2842B260AB5BFFF7680883BB1F1704 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FFB67BF123EAEC5C00F714BB /* BSCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB67BE623EAEC5C00F714BB /* BSCountryViewController.swift */; };
-		FFB67BF223EAEC5C00F714BB /* Continent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB67BE723EAEC5C00F714BB /* Continent.swift */; };
-		FFB67BF323EAEC5C00F714BB /* CountryTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB67BE823EAEC5C00F714BB /* CountryTableViewDataSource.swift */; };
-		FFB67BF423EAEC5C00F714BB /* EmojiFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB67BE923EAEC5C00F714BB /* EmojiFlag.swift */; };
-		FFB67BF523EAEC5C00F714BB /* ContinentsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB67BEA23EAEC5C00F714BB /* ContinentsDataSource.swift */; };
-		FFB67BF623EAEC5C00F714BB /* TopAttachedNavigationBarDelagete.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB67BEB23EAEC5C00F714BB /* TopAttachedNavigationBarDelagete.swift */; };
-		FFB67BF723EAEC5C00F714BB /* BSCountryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFB67BEC23EAEC5C00F714BB /* BSCountryView.xib */; };
-		FFB67BF823EAEC5C00F714BB /* CountryTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB67BED23EAEC5C00F714BB /* CountryTableViewDelegate.swift */; };
-		FFB67BF923EAEC5C00F714BB /* NibName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB67BEE23EAEC5C00F714BB /* NibName.swift */; };
-		FFB67BFA23EAEC5C00F714BB /* DataSourceOfCountriesByContinent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB67BEF23EAEC5C00F714BB /* DataSourceOfCountriesByContinent.swift */; };
-		FFB67BFB23EAEC5C00F714BB /* BSCountryViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB67BF023EAEC5C00F714BB /* BSCountryViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,47 +49,48 @@
 
 /* Begin PBXFileReference section */
 		0DADBA2FBF14B88345E8FF16C11F0A47 /* Pods-BSCountryViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BSCountryViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		1507D1AA6209E33B578DA49D450A3C61 /* BSCountryViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSCountryViewController-prefix.pch"; sourceTree = "<group>"; };
-		173FEBB1D6F6BFC7C02A3AC0025FE2A2 /* BSCountryViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSCountryViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		173FEBB1D6F6BFC7C02A3AC0025FE2A2 /* BSCountryViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSCountryViewController.framework; path = BSCountryViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDB072DBE520855AFE5557514783F43 /* BSCountryViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSCountryViewController-prefix.pch"; sourceTree = "<group>"; };
+		2FA998AC17EF1A300EF14DE62034BE94 /* Continent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Continent.swift; path = BSCountryViewController/Classes/Continent.swift; sourceTree = "<group>"; };
 		30882C254B229820F0FFF67121C3F093 /* Pods-BSCountryViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BSCountryViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		489E2E8D3D211C7BDDB28CF7335445B6 /* BSContryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSContryViewController.h; path = BSCountryViewController/Classes/BSContryViewController.h; sourceTree = "<group>"; };
 		4A098F15014139CC7511E18D665BF29E /* Pods-BSCountryViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSCountryViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4D78B6D3CA820BA00CABF7098A420E7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		52B4B0D6E44732666FFEB0DA2B17F57B /* BSCountryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCountryViewController.swift; path = BSCountryViewController/Classes/BSCountryViewController.swift; sourceTree = "<group>"; };
 		53426E30BB74BB76D9559CF285D6C391 /* Pods-BSCountryViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSCountryViewController_Tests-Info.plist"; sourceTree = "<group>"; };
 		568917945BF2BD5C2622AEFEBBF2D971 /* Pods-BSCountryViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSCountryViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		63941F7D5B3823A41D038A0B3CEBA848 /* Pods_BSCountryViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSCountryViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63941F7D5B3823A41D038A0B3CEBA848 /* Pods_BSCountryViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BSCountryViewController_Example.framework; path = "Pods-BSCountryViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67522AC11A037E34FC8E5778DC8B075E /* BSCountryViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BSCountryViewController-Info.plist"; sourceTree = "<group>"; };
 		6A8E299B7AA5AF136EBD90B3ED3C9808 /* Pods-BSCountryViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSCountryViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		716A0B693236A525BC41D2C60641DE31 /* NibName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibName.swift; path = BSCountryViewController/Classes/NibName.swift; sourceTree = "<group>"; };
+		743885FDE38C42D46A95E3EF15B75462 /* BSCountryViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSCountryViewController-umbrella.h"; sourceTree = "<group>"; };
+		7623239134665989DE66B3042D23F19F /* BSCountryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BSCountryView.xib; path = BSCountryViewController/Classes/BSCountryView.xib; sourceTree = "<group>"; };
 		7A0A0AE412380F7CCA642A5DD0A83C13 /* Pods-BSCountryViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BSCountryViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		7D4F44642BB58562422FAAAC8A3962A9 /* BSCountryViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BSCountryViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83D3F1839FC18BE8F0A7E71384A77262 /* ContinentsDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContinentsDataSource.swift; path = BSCountryViewController/Classes/ContinentsDataSource.swift; sourceTree = "<group>"; };
 		85E9FFB2A26EF8050E1DB283E07EC916 /* Pods-BSCountryViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSCountryViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		872E628DEC9917102E5C1413CFE9F95F /* Pods-BSCountryViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSCountryViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		89CDB0BBA481570779853B18D86741AC /* Pods-BSCountryViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSCountryViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		90663045C4C4357F5A22C097E440D700 /* BSCountryViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSCountryViewController.modulemap; sourceTree = "<group>"; };
-		916F2AA62916EAFA1F75CAD05D8B25FD /* BSCountryViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BSCountryViewController-Info.plist"; sourceTree = "<group>"; };
-		9213B584E36576627F6F6A332F72FC06 /* BSCountryViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSCountryViewController-umbrella.h"; sourceTree = "<group>"; };
-		97643FF85B4AD53FACE1BFCEBB43CBA0 /* Pods_BSCountryViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSCountryViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97643FF85B4AD53FACE1BFCEBB43CBA0 /* Pods_BSCountryViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BSCountryViewController_Tests.framework; path = "Pods-BSCountryViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F56E705AAB6E58FB414BA9C03516F0 /* EmojiFlag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiFlag.swift; path = BSCountryViewController/Classes/EmojiFlag.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A122D3BACAB516AB868A49AFCB8B80C9 /* Pods-BSCountryViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSCountryViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A2810ACB3F45779EC64C305ACEADFF65 /* Pods-BSCountryViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSCountryViewController_Example-Info.plist"; sourceTree = "<group>"; };
-		ABC27472D85C2F86464128C757531F58 /* BSCountryViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSCountryViewController-dummy.m"; sourceTree = "<group>"; };
 		B2466A5B6674C3A8FF0183E50114B2F9 /* Pods-BSCountryViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSCountryViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B2B281F0F333B6508670674DDC884681 /* Pods-BSCountryViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSCountryViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		B3AA09422365C74D6F7CC49B91A9A830 /* BSCountryViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BSCountryViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B507AD1D34FF74D45116E974CEAE017E /* TopAttachedNavigationBarDelagete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TopAttachedNavigationBarDelagete.swift; path = BSCountryViewController/Classes/TopAttachedNavigationBarDelagete.swift; sourceTree = "<group>"; };
+		B799E8A11E0E5B713F8EB3865FA2BBD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B9D9D3B7BADCFF1907F5EFBF375F1506 /* BSCountryViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSCountryViewController.modulemap; sourceTree = "<group>"; };
 		BE054ACE4696684BA839B18C3A53CA40 /* Pods-BSCountryViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSCountryViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C316F410843ABACCE1941F62BB9289BF /* BSCountryViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCountryViewControllerDelegate.swift; path = BSCountryViewController/Classes/BSCountryViewControllerDelegate.swift; sourceTree = "<group>"; };
 		C9322038961A147B511A026B4902442E /* Pods-BSCountryViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSCountryViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC0C3D94B2365B282C4CABD214EF4CF3 /* CountryTableViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryTableViewDelegate.swift; path = BSCountryViewController/Classes/CountryTableViewDelegate.swift; sourceTree = "<group>"; };
 		D4B44CA6FD8C3E36545E4B4B7CC43FBE /* Pods-BSCountryViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BSCountryViewController_Example.modulemap"; sourceTree = "<group>"; };
-		D82D85722EC174FDAD4E0A9B50D13DAF /* BSCountryViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSCountryViewController.xcconfig; sourceTree = "<group>"; };
-		FBF66328A853C28007A8D9F25FC26C3A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		FFB67BE623EAEC5C00F714BB /* BSCountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCountryViewController.swift; path = BSCountryViewController/Classes/BSCountryViewController.swift; sourceTree = "<group>"; };
-		FFB67BE723EAEC5C00F714BB /* Continent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Continent.swift; path = BSCountryViewController/Classes/Continent.swift; sourceTree = "<group>"; };
-		FFB67BE823EAEC5C00F714BB /* CountryTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryTableViewDataSource.swift; path = BSCountryViewController/Classes/CountryTableViewDataSource.swift; sourceTree = "<group>"; };
-		FFB67BE923EAEC5C00F714BB /* EmojiFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmojiFlag.swift; path = BSCountryViewController/Classes/EmojiFlag.swift; sourceTree = "<group>"; };
-		FFB67BEA23EAEC5C00F714BB /* ContinentsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContinentsDataSource.swift; path = BSCountryViewController/Classes/ContinentsDataSource.swift; sourceTree = "<group>"; };
-		FFB67BEB23EAEC5C00F714BB /* TopAttachedNavigationBarDelagete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopAttachedNavigationBarDelagete.swift; path = BSCountryViewController/Classes/TopAttachedNavigationBarDelagete.swift; sourceTree = "<group>"; };
-		FFB67BEC23EAEC5C00F714BB /* BSCountryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BSCountryView.xib; path = BSCountryViewController/Classes/BSCountryView.xib; sourceTree = "<group>"; };
-		FFB67BED23EAEC5C00F714BB /* CountryTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryTableViewDelegate.swift; path = BSCountryViewController/Classes/CountryTableViewDelegate.swift; sourceTree = "<group>"; };
-		FFB67BEE23EAEC5C00F714BB /* NibName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibName.swift; path = BSCountryViewController/Classes/NibName.swift; sourceTree = "<group>"; };
-		FFB67BEF23EAEC5C00F714BB /* DataSourceOfCountriesByContinent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSourceOfCountriesByContinent.swift; path = BSCountryViewController/Classes/DataSourceOfCountriesByContinent.swift; sourceTree = "<group>"; };
-		FFB67BF023EAEC5C00F714BB /* BSCountryViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BSCountryViewControllerDelegate.swift; path = BSCountryViewController/Classes/BSCountryViewControllerDelegate.swift; sourceTree = "<group>"; };
+		E0C3D799D098143E883D797B8CD70DD6 /* BSCountryViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSCountryViewController.xcconfig; sourceTree = "<group>"; };
+		E1F79B3FBE70221F8A640E1F7F31F56E /* CountryTableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryTableViewDataSource.swift; path = BSCountryViewController/Classes/CountryTableViewDataSource.swift; sourceTree = "<group>"; };
+		E98742D71621155CE46064D714A20B5D /* DataSourceOfCountriesByContinent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataSourceOfCountriesByContinent.swift; path = BSCountryViewController/Classes/DataSourceOfCountriesByContinent.swift; sourceTree = "<group>"; };
+		EEA06A2AAAF267D13AB443C75EFEF233 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F663C77459F362CB348205DAC69D561A /* BSCountryViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSCountryViewController-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,33 +110,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96D9F0F293297947125E699DA26CF135 /* Frameworks */ = {
+		BF815B2A3A97AAA2F1D203DFF38E4CC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A75A2E624A5C19CD77E4787DA67C55E /* Foundation.framework in Frameworks */,
+				77F869A5DB2E36351FBC655696B2A426 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2061051A513A181C698CF45E2AF5B5E7 /* Pod */ = {
+		1581BBC78C490877E86B78238475574A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FFB67BEC23EAEC5C00F714BB /* BSCountryView.xib */,
-				FFB67BE623EAEC5C00F714BB /* BSCountryViewController.swift */,
-				FFB67BF023EAEC5C00F714BB /* BSCountryViewControllerDelegate.swift */,
-				FFB67BED23EAEC5C00F714BB /* CountryTableViewDelegate.swift */,
-				FF379B5B2401B0A90095B087 /* Entities */,
-				FFB67BEA23EAEC5C00F714BB /* ContinentsDataSource.swift */,
-				FF379B5C2401B22A0095B087 /* DataSource */,
-				FF379B5D2401B2750095B087 /* Helper */,
-				7D4F44642BB58562422FAAAC8A3962A9 /* BSCountryViewController.podspec */,
-				FBF66328A853C28007A8D9F25FC26C3A /* LICENSE */,
-				4D78B6D3CA820BA00CABF7098A420E7E /* README.md */,
+				628FB42097677865A49EC932B4CAC34E /* BSCountryViewController */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		3CB6E4FF80ADB6E5A560E660491B8E75 /* Pods-BSCountryViewController_Example */ = {
@@ -180,6 +172,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		628FB42097677865A49EC932B4CAC34E /* BSCountryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				489E2E8D3D211C7BDDB28CF7335445B6 /* BSContryViewController.h */,
+				7623239134665989DE66B3042D23F19F /* BSCountryView.xib */,
+				52B4B0D6E44732666FFEB0DA2B17F57B /* BSCountryViewController.swift */,
+				C316F410843ABACCE1941F62BB9289BF /* BSCountryViewControllerDelegate.swift */,
+				2FA998AC17EF1A300EF14DE62034BE94 /* Continent.swift */,
+				83D3F1839FC18BE8F0A7E71384A77262 /* ContinentsDataSource.swift */,
+				E1F79B3FBE70221F8A640E1F7F31F56E /* CountryTableViewDataSource.swift */,
+				CC0C3D94B2365B282C4CABD214EF4CF3 /* CountryTableViewDelegate.swift */,
+				E98742D71621155CE46064D714A20B5D /* DataSourceOfCountriesByContinent.swift */,
+				97F56E705AAB6E58FB414BA9C03516F0 /* EmojiFlag.swift */,
+				716A0B693236A525BC41D2C60641DE31 /* NibName.swift */,
+				B507AD1D34FF74D45116E974CEAE017E /* TopAttachedNavigationBarDelagete.swift */,
+				C43513C27E77224F4A7BBDBE44328E8E /* Pod */,
+				90D7E6C3F7ACF1B0D3D54B6128086B58 /* Support Files */,
+			);
+			name = BSCountryViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		759658CB2760F6CCAF8E5B56FECBB208 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,28 +203,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8A95839D72725E1D6091438779DB50BD /* Support Files */ = {
+		90D7E6C3F7ACF1B0D3D54B6128086B58 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				90663045C4C4357F5A22C097E440D700 /* BSCountryViewController.modulemap */,
-				D82D85722EC174FDAD4E0A9B50D13DAF /* BSCountryViewController.xcconfig */,
-				ABC27472D85C2F86464128C757531F58 /* BSCountryViewController-dummy.m */,
-				916F2AA62916EAFA1F75CAD05D8B25FD /* BSCountryViewController-Info.plist */,
-				1507D1AA6209E33B578DA49D450A3C61 /* BSCountryViewController-prefix.pch */,
-				9213B584E36576627F6F6A332F72FC06 /* BSCountryViewController-umbrella.h */,
+				B9D9D3B7BADCFF1907F5EFBF375F1506 /* BSCountryViewController.modulemap */,
+				E0C3D799D098143E883D797B8CD70DD6 /* BSCountryViewController.xcconfig */,
+				F663C77459F362CB348205DAC69D561A /* BSCountryViewController-dummy.m */,
+				67522AC11A037E34FC8E5778DC8B075E /* BSCountryViewController-Info.plist */,
+				1FDB072DBE520855AFE5557514783F43 /* BSCountryViewController-prefix.pch */,
+				743885FDE38C42D46A95E3EF15B75462 /* BSCountryViewController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/BSCountryViewController";
-			sourceTree = "<group>";
-		};
-		B380DBFED5CF93F2ED08474F566E318D /* BSCountryViewController */ = {
-			isa = PBXGroup;
-			children = (
-				2061051A513A181C698CF45E2AF5B5E7 /* Pod */,
-				8A95839D72725E1D6091438779DB50BD /* Support Files */,
-			);
-			name = BSCountryViewController;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -221,11 +225,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C43513C27E77224F4A7BBDBE44328E8E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B3AA09422365C74D6F7CC49B91A9A830 /* BSCountryViewController.podspec */,
+				EEA06A2AAAF267D13AB443C75EFEF233 /* LICENSE */,
+				B799E8A11E0E5B713F8EB3865FA2BBD1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DB4B3A09EFA915C5B4ABFCD004C0FFE5 /* Development Pods */,
+				1581BBC78C490877E86B78238475574A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				598ABAAFD4DFA14F5F54DBE8CF2F0732 /* Products */,
 				759658CB2760F6CCAF8E5B56FECBB208 /* Targets Support Files */,
@@ -240,49 +254,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DB4B3A09EFA915C5B4ABFCD004C0FFE5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B380DBFED5CF93F2ED08474F566E318D /* BSCountryViewController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FF379B5B2401B0A90095B087 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-				FFB67BE723EAEC5C00F714BB /* Continent.swift */,
-			);
-			name = Entities;
-			sourceTree = "<group>";
-		};
-		FF379B5C2401B22A0095B087 /* DataSource */ = {
-			isa = PBXGroup;
-			children = (
-				FFB67BE923EAEC5C00F714BB /* EmojiFlag.swift */,
-				FFB67BE823EAEC5C00F714BB /* CountryTableViewDataSource.swift */,
-				FFB67BEF23EAEC5C00F714BB /* DataSourceOfCountriesByContinent.swift */,
-			);
-			name = DataSource;
-			sourceTree = "<group>";
-		};
-		FF379B5D2401B2750095B087 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				FFB67BEB23EAEC5C00F714BB /* TopAttachedNavigationBarDelagete.swift */,
-				FFB67BEE23EAEC5C00F714BB /* NibName.swift */,
-			);
-			name = Helper;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18CD63799A1A4D347C6CB432FCA2FD03 /* Headers */ = {
+		10E17AAB22D3D2301C7D216B29BE87B6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A630650584AB60DB735CB027729023 /* BSCountryViewController-umbrella.h in Headers */,
+				10D0B8A5C070ED8618944F6B20FC40EE /* BSContryViewController.h in Headers */,
+				A44D9FF2FC647C7F9D14683BC4798862 /* BSCountryViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,12 +325,12 @@
 		};
 		D0F635F52A8C8FE7CBD05D287261A8BC /* BSCountryViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A9C824F5FCD803B869E25AD8CBDFCC6 /* Build configuration list for PBXNativeTarget "BSCountryViewController" */;
+			buildConfigurationList = CCFA843743C03250109C42CD005AEC81 /* Build configuration list for PBXNativeTarget "BSCountryViewController" */;
 			buildPhases = (
-				18CD63799A1A4D347C6CB432FCA2FD03 /* Headers */,
-				4DD8948FC9D5424F2CA96339CC5D3670 /* Sources */,
-				96D9F0F293297947125E699DA26CF135 /* Frameworks */,
-				F086EC7AD88A1F75A6CA7C56F2CCE0FD /* Resources */,
+				10E17AAB22D3D2301C7D216B29BE87B6 /* Headers */,
+				493FF9A0A6BEC370F0F9A5EBEEA09C10 /* Sources */,
+				BF815B2A3A97AAA2F1D203DFF38E4CC1 /* Frameworks */,
+				0C19700323D5E32D597F26C383109E0E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -369,11 +349,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					D0F635F52A8C8FE7CBD05D287261A8BC = {
-						LastSwiftMigration = 1120;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -395,6 +370,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C19700323D5E32D597F26C383109E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82E78B109B83E77B35F13BA3655C1FD8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,32 +391,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F086EC7AD88A1F75A6CA7C56F2CCE0FD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFB67BF723EAEC5C00F714BB /* BSCountryView.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4DD8948FC9D5424F2CA96339CC5D3670 /* Sources */ = {
+		493FF9A0A6BEC370F0F9A5EBEEA09C10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB67BF123EAEC5C00F714BB /* BSCountryViewController.swift in Sources */,
-				FFB67BF423EAEC5C00F714BB /* EmojiFlag.swift in Sources */,
-				C049D3264C47A7169379F17F3993EA8E /* BSCountryViewController-dummy.m in Sources */,
-				FFB67BF923EAEC5C00F714BB /* NibName.swift in Sources */,
-				FFB67BF823EAEC5C00F714BB /* CountryTableViewDelegate.swift in Sources */,
-				FFB67BFB23EAEC5C00F714BB /* BSCountryViewControllerDelegate.swift in Sources */,
-				FFB67BF523EAEC5C00F714BB /* ContinentsDataSource.swift in Sources */,
-				FFB67BFA23EAEC5C00F714BB /* DataSourceOfCountriesByContinent.swift in Sources */,
-				FFB67BF323EAEC5C00F714BB /* CountryTableViewDataSource.swift in Sources */,
-				FFB67BF623EAEC5C00F714BB /* TopAttachedNavigationBarDelagete.swift in Sources */,
-				FFB67BF223EAEC5C00F714BB /* Continent.swift in Sources */,
+				867B7F245DD1601C32A00DC443A8DD56 /* BSCountryView.xib in Sources */,
+				24AD1D2A068F4684A6C7E43C110FC9C1 /* BSCountryViewController-dummy.m in Sources */,
+				2DD5FAC5BED0741E75F36D7E52C56D49 /* BSCountryViewController.swift in Sources */,
+				0EA7C550E83712EB683B7DB5E38D5052 /* BSCountryViewControllerDelegate.swift in Sources */,
+				F8235C3469982C9DBB56FDEC7384645B /* Continent.swift in Sources */,
+				5E8B0412D70E74D348107C5D23C3360C /* ContinentsDataSource.swift in Sources */,
+				3C678D24EF71B6A5753E54A1EFB28EF8 /* CountryTableViewDataSource.swift in Sources */,
+				68DE361A70E7C595D232CC2257C1E3AB /* CountryTableViewDelegate.swift in Sources */,
+				9ECBD6AB97B6662649B746664B01DC13 /* DataSourceOfCountriesByContinent.swift in Sources */,
+				5E6EC8EF143CA37255F9BE44AFC5527E /* EmojiFlag.swift in Sources */,
+				B75CC72BABFDCDBF49CF850C82B6611F /* NibName.swift in Sources */,
+				B133DDAE5975A67BC4D6FC55104140D7 /* TopAttachedNavigationBarDelagete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,39 +447,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00E4507AF57E374AE5A369D5E3C9BA82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D82D85722EC174FDAD4E0A9B50D13DAF /* BSCountryViewController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BSCountryViewController/BSCountryViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BSCountryViewController/BSCountryViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BSCountryViewController/BSCountryViewController.modulemap";
-				PRODUCT_MODULE_NAME = BSCountryViewController;
-				PRODUCT_NAME = BSCountryViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		08CAD5CFBBAD03548CA08CDAE1C92EE4 /* Debug */ = {
+		2802FB9DBEA3A57D3188E5E73D0FF0C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4A098F15014139CC7511E18D665BF29E /* Pods-BSCountryViewController_Example.debug.xcconfig */;
 			buildSettings = {
@@ -520,6 +463,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-BSCountryViewController_Example/Pods-BSCountryViewController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BSCountryViewController_Example/Pods-BSCountryViewController_Example.modulemap";
@@ -536,7 +480,7 @@
 			};
 			name = Debug;
 		};
-		6B405713CB1E9E017248531B28120B5A /* Debug */ = {
+		53A2D4F072EF8EF76488575871FCDBA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 568917945BF2BD5C2622AEFEBBF2D971 /* Pods-BSCountryViewController_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -552,6 +496,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-BSCountryViewController_Tests/Pods-BSCountryViewController_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BSCountryViewController_Tests/Pods-BSCountryViewController_Tests.modulemap";
@@ -568,7 +513,39 @@
 			};
 			name = Debug;
 		};
-		8E7BB34878412ABFE19062B1A2F5774F /* Release */ = {
+		6A2AAF6756E1DDA12A0A5AEF73BA1116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C3D799D098143E883D797B8CD70DD6 /* BSCountryViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSCountryViewController/BSCountryViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSCountryViewController/BSCountryViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSCountryViewController/BSCountryViewController.modulemap";
+				PRODUCT_MODULE_NAME = BSCountryViewController;
+				PRODUCT_NAME = BSCountryViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D9E15D713DB2F4B1382118B9C82492F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89CDB0BBA481570779853B18D86741AC /* Pods-BSCountryViewController_Example.release.xcconfig */;
 			buildSettings = {
@@ -584,6 +561,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-BSCountryViewController_Example/Pods-BSCountryViewController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BSCountryViewController_Example/Pods-BSCountryViewController_Example.modulemap";
@@ -601,72 +579,7 @@
 			};
 			name = Release;
 		};
-		8FFCA9BBD5E1DA68DFE21BB3D9BB40D7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A122D3BACAB516AB868A49AFCB8B80C9 /* Pods-BSCountryViewController_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BSCountryViewController_Tests/Pods-BSCountryViewController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BSCountryViewController_Tests/Pods-BSCountryViewController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9FE7FD1C7BB364E9B4125ECB158B1DF0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D82D85722EC174FDAD4E0A9B50D13DAF /* BSCountryViewController.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BSCountryViewController/BSCountryViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BSCountryViewController/BSCountryViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BSCountryViewController/BSCountryViewController.modulemap";
-				PRODUCT_MODULE_NAME = BSCountryViewController;
-				PRODUCT_NAME = BSCountryViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -719,13 +632,14 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -789,14 +703,79 @@
 			};
 			name = Debug;
 		};
+		C1FA54FEA25522E5CDF631EA82971D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C3D799D098143E883D797B8CD70DD6 /* BSCountryViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BSCountryViewController/BSCountryViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BSCountryViewController/BSCountryViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BSCountryViewController/BSCountryViewController.modulemap";
+				PRODUCT_MODULE_NAME = BSCountryViewController;
+				PRODUCT_NAME = BSCountryViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E70A9721D1CA3598B11B47E41ACC5F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A122D3BACAB516AB868A49AFCB8B80C9 /* Pods-BSCountryViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BSCountryViewController_Tests/Pods-BSCountryViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BSCountryViewController_Tests/Pods-BSCountryViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -804,17 +783,17 @@
 		80A03AE301DC6ABEDACEFDCF5588CE81 /* Build configuration list for PBXNativeTarget "Pods-BSCountryViewController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B405713CB1E9E017248531B28120B5A /* Debug */,
-				8FFCA9BBD5E1DA68DFE21BB3D9BB40D7 /* Release */,
+				53A2D4F072EF8EF76488575871FCDBA8 /* Debug */,
+				E70A9721D1CA3598B11B47E41ACC5F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A9C824F5FCD803B869E25AD8CBDFCC6 /* Build configuration list for PBXNativeTarget "BSCountryViewController" */ = {
+		CCFA843743C03250109C42CD005AEC81 /* Build configuration list for PBXNativeTarget "BSCountryViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00E4507AF57E374AE5A369D5E3C9BA82 /* Debug */,
-				9FE7FD1C7BB364E9B4125ECB158B1DF0 /* Release */,
+				C1FA54FEA25522E5CDF631EA82971D6B /* Debug */,
+				6A2AAF6756E1DDA12A0A5AEF73BA1116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -822,8 +801,8 @@
 		EE4389842FB36D734F593821C6031F5F /* Build configuration list for PBXNativeTarget "Pods-BSCountryViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08CAD5CFBBAD03548CA08CDAE1C92EE4 /* Debug */,
-				8E7BB34878412ABFE19062B1A2F5774F /* Release */,
+				2802FB9DBEA3A57D3188E5E73D0FF0C5 /* Debug */,
+				7D9E15D713DB2F4B1382118B9C82492F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
