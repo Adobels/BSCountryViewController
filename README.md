@@ -28,4 +28,4 @@ pod 'BSCountryViewController'
 
 ## Screenshot
 
-![BSCountryViewController screenshot animated gif](BSCountryViewController.gif)
+![BSCountryViewController screenshot animated gif](https://github.com/Adobels/BSCountryViewController/blob/master/BSCountryViewController.gif)
