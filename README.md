@@ -1,6 +1,7 @@
 # BSCountryViewController
 
 [![CI Status](https://img.shields.io/travis/Adobels/BSCountryViewController.svg?style=flat)](https://travis-ci.org/Adobels/BSCountryViewController)
+[![CI Status](https://img.shields.io/codecov/c/gh/Adobels/BSCountryViewController)](https://codecov.io/gh/Adobels/BSCountryViewController)
 [![Version](https://img.shields.io/cocoapods/v/BSCountryViewController.svg?style=flat)](https://cocoapods.org/pods/BSCountryViewController)
 [![Platform](https://img.shields.io/cocoapods/p/BSCountryViewController.svg?style=flat)](https://cocoapods.org/pods/BSCountryViewController)
 
