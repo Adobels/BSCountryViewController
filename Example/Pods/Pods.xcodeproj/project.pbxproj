@@ -49,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		0DADBA2FBF14B88345E8FF16C11F0A47 /* Pods-BSCountryViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BSCountryViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		173FEBB1D6F6BFC7C02A3AC0025FE2A2 /* BSCountryViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BSCountryViewController.framework; path = BSCountryViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		173FEBB1D6F6BFC7C02A3AC0025FE2A2 /* BSCountryViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BSCountryViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDB072DBE520855AFE5557514783F43 /* BSCountryViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSCountryViewController-prefix.pch"; sourceTree = "<group>"; };
 		2FA998AC17EF1A300EF14DE62034BE94 /* Continent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Continent.swift; path = BSCountryViewController/Classes/Continent.swift; sourceTree = "<group>"; };
 		30882C254B229820F0FFF67121C3F093 /* Pods-BSCountryViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BSCountryViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		52B4B0D6E44732666FFEB0DA2B17F57B /* BSCountryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCountryViewController.swift; path = BSCountryViewController/Classes/BSCountryViewController.swift; sourceTree = "<group>"; };
 		53426E30BB74BB76D9559CF285D6C391 /* Pods-BSCountryViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSCountryViewController_Tests-Info.plist"; sourceTree = "<group>"; };
 		568917945BF2BD5C2622AEFEBBF2D971 /* Pods-BSCountryViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSCountryViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		63941F7D5B3823A41D038A0B3CEBA848 /* Pods_BSCountryViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BSCountryViewController_Example.framework; path = "Pods-BSCountryViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63941F7D5B3823A41D038A0B3CEBA848 /* Pods_BSCountryViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSCountryViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67522AC11A037E34FC8E5778DC8B075E /* BSCountryViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BSCountryViewController-Info.plist"; sourceTree = "<group>"; };
 		6A8E299B7AA5AF136EBD90B3ED3C9808 /* Pods-BSCountryViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSCountryViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		716A0B693236A525BC41D2C60641DE31 /* NibName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibName.swift; path = BSCountryViewController/Classes/NibName.swift; sourceTree = "<group>"; };
@@ -70,16 +70,16 @@
 		85E9FFB2A26EF8050E1DB283E07EC916 /* Pods-BSCountryViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSCountryViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		872E628DEC9917102E5C1413CFE9F95F /* Pods-BSCountryViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSCountryViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		89CDB0BBA481570779853B18D86741AC /* Pods-BSCountryViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSCountryViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		97643FF85B4AD53FACE1BFCEBB43CBA0 /* Pods_BSCountryViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BSCountryViewController_Tests.framework; path = "Pods-BSCountryViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97643FF85B4AD53FACE1BFCEBB43CBA0 /* Pods_BSCountryViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BSCountryViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F56E705AAB6E58FB414BA9C03516F0 /* EmojiFlag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiFlag.swift; path = BSCountryViewController/Classes/EmojiFlag.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A122D3BACAB516AB868A49AFCB8B80C9 /* Pods-BSCountryViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BSCountryViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A2810ACB3F45779EC64C305ACEADFF65 /* Pods-BSCountryViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSCountryViewController_Example-Info.plist"; sourceTree = "<group>"; };
 		B2466A5B6674C3A8FF0183E50114B2F9 /* Pods-BSCountryViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BSCountryViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B2B281F0F333B6508670674DDC884681 /* Pods-BSCountryViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSCountryViewController_Example-dummy.m"; sourceTree = "<group>"; };
-		B3AA09422365C74D6F7CC49B91A9A830 /* BSCountryViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BSCountryViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3AA09422365C74D6F7CC49B91A9A830 /* BSCountryViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BSCountryViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B507AD1D34FF74D45116E974CEAE017E /* TopAttachedNavigationBarDelagete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TopAttachedNavigationBarDelagete.swift; path = BSCountryViewController/Classes/TopAttachedNavigationBarDelagete.swift; sourceTree = "<group>"; };
-		B799E8A11E0E5B713F8EB3865FA2BBD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B799E8A11E0E5B713F8EB3865FA2BBD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B9D9D3B7BADCFF1907F5EFBF375F1506 /* BSCountryViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BSCountryViewController.modulemap; sourceTree = "<group>"; };
 		BE054ACE4696684BA839B18C3A53CA40 /* Pods-BSCountryViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSCountryViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C316F410843ABACCE1941F62BB9289BF /* BSCountryViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCountryViewControllerDelegate.swift; path = BSCountryViewController/Classes/BSCountryViewControllerDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		E0C3D799D098143E883D797B8CD70DD6 /* BSCountryViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BSCountryViewController.xcconfig; sourceTree = "<group>"; };
 		E1F79B3FBE70221F8A640E1F7F31F56E /* CountryTableViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryTableViewDataSource.swift; path = BSCountryViewController/Classes/CountryTableViewDataSource.swift; sourceTree = "<group>"; };
 		E98742D71621155CE46064D714A20B5D /* DataSourceOfCountriesByContinent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataSourceOfCountriesByContinent.swift; path = BSCountryViewController/Classes/DataSourceOfCountriesByContinent.swift; sourceTree = "<group>"; };
-		EEA06A2AAAF267D13AB443C75EFEF233 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EEA06A2AAAF267D13AB443C75EFEF233 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F663C77459F362CB348205DAC69D561A /* BSCountryViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BSCountryViewController-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -632,8 +632,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
