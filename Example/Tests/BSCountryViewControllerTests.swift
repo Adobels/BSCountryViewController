@@ -34,7 +34,7 @@ class BSCountryViewControllerTests: XCTestCase {
         XCTAssertTrue(delegate.didSelectRegionsExecuted)
         XCTAssertEqual(delegate.selectedRegions, ["PL"])
         
-        vc.didTapDoneButton(UIButton())
+        vc.didTapDoneButton()
         XCTAssertTrue(delegate.didTapDoneButtonExecuted)
         XCTAssertEqual(delegate.selectedRegionsDoneButton, ["PL"])
     }
