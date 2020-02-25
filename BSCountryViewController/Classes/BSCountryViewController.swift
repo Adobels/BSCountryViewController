@@ -9,7 +9,8 @@ import UIKit
 
 public class BSCountryViewController: UIViewController {
 
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet var tableView: UITableView!
+    var navigationBar: UINavigationBar!
     @IBOutlet public var tableViewDataSource: CountryTableViewDataSource!
     @IBOutlet public var tabelViewDelegate: CountryTableViewDelegate!
     public weak var delegate: BSCountryViewControllerDelegate?
@@ -17,18 +18,50 @@ public class BSCountryViewController: UIViewController {
     var selectedRegions: [String]?
     
     public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        super.init(
-            nibName: NibName.countryPickerView.rawValue,
-            bundle: Bundle(for: Self.self))
+        super.init(nibName: nil, bundle: nil)
     }
     
     public required init?(coder: NSCoder) {
-        super.init(
-            nibName: NibName.countryPickerView.rawValue,
-            bundle: Bundle(for: Self.self))
+        super.init(coder: coder)
     }
     
-    @IBAction public func didTapDoneButton() {
+    public override func loadView() {
+        super.loadView()
+        
+        // UINAvigationBar, UINavigationItem, UIBarButtonItem
+        
+        let navigationItem = UINavigationItem(title: "Regions")
+        let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(actionDidTapDoneButton))
+        navigationItem.leftBarButtonItem = doneButton
+        
+        navigationBar = UINavigationBar()
+        navigationBar.setItems([navigationItem], animated: true)
+        let navigationBarDelegate = TopAttachedNavigationBarDelagete()
+        navigationBar.delegate = navigationBarDelegate
+        
+        view.addSubview(navigationBar)
+        
+        // UITableView
+
+        tableView = UITableView()
+        view.addSubview(tableView)
+        
+        // Objects
+        tableViewDataSource = CountryTableViewDataSource()
+        tabelViewDelegate = CountryTableViewDelegate()
+        tableView.dataSource = tableViewDataSource
+        tableView.delegate = tabelViewDelegate
+        
+    }
+    
+    public override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        navigationBar.sizeToFit()
+        let nbHeight = navigationBar.frame.height
+        tableView.frame = CGRect(x: 0, y: nbHeight, width: view.frame.width, height: view.frame.height - nbHeight)
+    }
+    
+    @IBAction public func actionDidTapDoneButton() {
         self.didTapDoneButton(with: selectedRegions)
     }
     

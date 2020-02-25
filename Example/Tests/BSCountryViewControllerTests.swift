@@ -13,7 +13,8 @@ import BSCountryViewController
 class BSCountryViewControllerTests: XCTestCase {
     
     func testInitWithCoder() {
-        let vc = BSCountryViewController(coder: NSCoder())
+        let archiver = NSKeyedUnarchiver(forReadingWith: Data())
+        let vc = BSCountryViewController(coder: archiver)
         XCTAssertNotNil(vc)
     }
     
@@ -34,7 +35,7 @@ class BSCountryViewControllerTests: XCTestCase {
         XCTAssertTrue(delegate.didSelectRegionsExecuted)
         XCTAssertEqual(delegate.selectedRegions, ["PL"])
         
-        vc.didTapDoneButton()
+        vc.actionDidTapDoneButton()
         XCTAssertTrue(delegate.didTapDoneButtonExecuted)
         XCTAssertEqual(delegate.selectedRegionsDoneButton, ["PL"])
     }

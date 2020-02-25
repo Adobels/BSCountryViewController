@@ -18,7 +18,6 @@
 		68DE361A70E7C595D232CC2257C1E3AB /* CountryTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0C3D94B2365B282C4CABD214EF4CF3 /* CountryTableViewDelegate.swift */; };
 		77AFFF0ABFFCC1490A4CCF325850C553 /* Pods-BSCountryViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B281F0F333B6508670674DDC884681 /* Pods-BSCountryViewController_Example-dummy.m */; };
 		77F869A5DB2E36351FBC655696B2A426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		867B7F245DD1601C32A00DC443A8DD56 /* BSCountryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7623239134665989DE66B3042D23F19F /* BSCountryView.xib */; };
 		9ECBD6AB97B6662649B746664B01DC13 /* DataSourceOfCountriesByContinent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98742D71621155CE46064D714A20B5D /* DataSourceOfCountriesByContinent.swift */; };
 		A44D9FF2FC647C7F9D14683BC4798862 /* BSCountryViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 743885FDE38C42D46A95E3EF15B75462 /* BSCountryViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A55EB84C8EE54FF1ED255B3D7515B4B2 /* Pods-BSCountryViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30882C254B229820F0FFF67121C3F093 /* Pods-BSCountryViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,7 +63,6 @@
 		6A8E299B7AA5AF136EBD90B3ED3C9808 /* Pods-BSCountryViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BSCountryViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		716A0B693236A525BC41D2C60641DE31 /* NibName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibName.swift; path = BSCountryViewController/Classes/NibName.swift; sourceTree = "<group>"; };
 		743885FDE38C42D46A95E3EF15B75462 /* BSCountryViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BSCountryViewController-umbrella.h"; sourceTree = "<group>"; };
-		7623239134665989DE66B3042D23F19F /* BSCountryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BSCountryView.xib; path = BSCountryViewController/Classes/BSCountryView.xib; sourceTree = "<group>"; };
 		7A0A0AE412380F7CCA642A5DD0A83C13 /* Pods-BSCountryViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BSCountryViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		83D3F1839FC18BE8F0A7E71384A77262 /* ContinentsDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContinentsDataSource.swift; path = BSCountryViewController/Classes/ContinentsDataSource.swift; sourceTree = "<group>"; };
 		85E9FFB2A26EF8050E1DB283E07EC916 /* Pods-BSCountryViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BSCountryViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -176,7 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				489E2E8D3D211C7BDDB28CF7335445B6 /* BSContryViewController.h */,
-				7623239134665989DE66B3042D23F19F /* BSCountryView.xib */,
 				52B4B0D6E44732666FFEB0DA2B17F57B /* BSCountryViewController.swift */,
 				C316F410843ABACCE1941F62BB9289BF /* BSCountryViewControllerDelegate.swift */,
 				2FA998AC17EF1A300EF14DE62034BE94 /* Continent.swift */,
@@ -398,7 +395,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				867B7F245DD1601C32A00DC443A8DD56 /* BSCountryView.xib in Sources */,
 				24AD1D2A068F4684A6C7E43C110FC9C1 /* BSCountryViewController-dummy.m in Sources */,
 				2DD5FAC5BED0741E75F36D7E52C56D49 /* BSCountryViewController.swift in Sources */,
 				0EA7C550E83712EB683B7DB5E38D5052 /* BSCountryViewControllerDelegate.swift in Sources */,
