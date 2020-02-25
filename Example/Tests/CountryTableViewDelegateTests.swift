@@ -7,38 +7,53 @@
 //
 
 import XCTest
-import BSCountryViewController
+@testable import BSCountryViewController
 
 class CountryTableViewDelegateTests: XCTestCase {
     
-//    func testDidSelectForwardToDelegate() {
-//
-//        let delegate = DelegateSpy()
-//
-//        let tableView = UITableView()
-//        let dataSource = CountryTableViewDataSource()
-//        tableView.dataSource = dataSource
-//        let tableViewDelegate = CountryTableViewDelegate()
-//        tableView.delegate = tableViewDelegate
-//
-//        (tableView.delegate as? CountryTableViewDelegate)?.delegate = delegate
-//        tableView.delegate?.tableView?(tableView, didSelectRowAt: IndexPath(row: 0, section: 0))
-//        //tableView.tableView(UITableView(), didSelectRowAt: IndexPath(row: 0, section: 0))
-//        XCTAssertGreaterThan(delegate.didSelectRegionsCounter, 0)
-//
-//    }
-    
-    func testDidSelect() {
+    func testTableViewDataSourceIsNil() {
+        let tableView = UITableView()
         
         let tableViewDelegate = CountryTableViewDelegate()
-        tableViewDelegate.tableView(UITableView(), didSelectRowAt: IndexPath(row: 0, section: 0))
-        
+        let bsCountryViewControllerDelegateSpy = BSCountryViewControllerDelegateSpy()
+        tableViewDelegate.delegate = bsCountryViewControllerDelegateSpy
+        tableViewDelegate.tableView(tableView, didSelectRowAt: IndexPath(row: 0, section: 0))
+        XCTAssertFalse(bsCountryViewControllerDelegateSpy.didSelectRegionsTriggered)
     }
     
-    private class DelegateSpy: BSCountryViewControllerDelegate {
-        var didSelectRegionsCounter = 0
+    func testTableViewDidSelectFirstRowInFirstSection() {
+        
+        let tableView = UITableView()
+        let tableViewDataSource = CountryTableViewDataSourceSpy()
+        tableView.dataSource = tableViewDataSource
+        
+        let tableViewDelegate = CountryTableViewDelegate()
+        tableViewDelegate.tableView(tableView, didSelectRowAt: IndexPath(row: 0, section: 0))
+        XCTAssertTrue(tableViewDataSource.didSelectTrigered)
+    }
+    
+    func testTableViewDidSelectFirstRowInSecondSection() {
+        
+        let tableView = UITableView()
+        let tableViewDataSource = CountryTableViewDataSourceSpy()
+        tableView.dataSource = tableViewDataSource
+        
+        let tableViewDelegate = CountryTableViewDelegate()
+        tableViewDelegate.tableView(tableView, didSelectRowAt: IndexPath(row: 0, section: 1))
+        XCTAssertTrue(tableViewDataSource.didSelectTrigered)
+    }
+    
+    private class BSCountryViewControllerDelegateSpy: BSCountryViewControllerDelegate {
+        var didSelectRegionsTriggered = false
         func didSelectRegions(_ regions: [String]) {
-            didSelectRegionsCounter += 1
+            didSelectRegionsTriggered = true
+        }
+    }
+    
+    private class CountryTableViewDataSourceSpy: CountryTableViewDataSource {
+        var didSelectTrigered: Bool = false
+        override func didSelect(rowAt indexPath: IndexPath) {
+            didSelectTrigered = true
         }
     }
     

@@ -16,14 +16,10 @@ public class CountryTableViewDelegate: NSObject, UITableViewDelegate {
         reloadCountriesSectionIfDidSelectContinent(tableView, didSelectRowAt: indexPath)
     }
     
+    // MARK: - Private methods
     private func reloadCountriesSectionIfDidSelectContinent(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let tableViewDataSource = tableView.dataSource as? CountryTableViewDataSource else {
-            return
-        }
-        guard indexPath.section == Section.continents.rawValue else {
-            return
-        }
-        tableViewDataSource.countries = tableViewDataSource.regions(for: indexPath)
+        let tableViewDataSource = tableView.dataSource as? CountryTableViewDataSource
+        tableViewDataSource?.didSelect(rowAt: indexPath)
     }
     
     private func delegateDidSelectRegions(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

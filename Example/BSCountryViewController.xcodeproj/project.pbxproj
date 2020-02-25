@@ -16,6 +16,9 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* EmojiFlagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* EmojiFlagTests.swift */; };
 		FF171E7224031D8B005AF275 /* CountryTableViewDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF171E7124031D8B005AF275 /* CountryTableViewDelegateTests.swift */; };
+		FF171E74240516ED005AF275 /* TopAttachedNavigationBarDelageteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF171E73240516ED005AF275 /* TopAttachedNavigationBarDelageteTests.swift */; };
+		FF171E7624051C1A005AF275 /* CountryTableViewDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF171E7524051C1A005AF275 /* CountryTableViewDataSourceTests.swift */; };
+		FF171E7824052DFB005AF275 /* BSCountryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF171E7724052DFB005AF275 /* BSCountryViewControllerTests.swift */; };
 		FF379B652401B3E10095B087 /* BSCountryViewController_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF379B642401B3E10095B087 /* BSCountryViewController_ExampleUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,9 @@
 		EE14BB6E9F01C05D1C703988 /* Pods-BSCountryViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSCountryViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-BSCountryViewController_Example/Pods-BSCountryViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FA29F7CB2B716A151A9B992E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FF171E7124031D8B005AF275 /* CountryTableViewDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewDelegateTests.swift; sourceTree = "<group>"; };
+		FF171E73240516ED005AF275 /* TopAttachedNavigationBarDelageteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAttachedNavigationBarDelageteTests.swift; sourceTree = "<group>"; };
+		FF171E7524051C1A005AF275 /* CountryTableViewDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewDataSourceTests.swift; sourceTree = "<group>"; };
+		FF171E7724052DFB005AF275 /* BSCountryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSCountryViewControllerTests.swift; sourceTree = "<group>"; };
 		FF379B622401B3E10095B087 /* BSCountryViewController_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSCountryViewController_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF379B642401B3E10095B087 /* BSCountryViewController_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSCountryViewController_ExampleUITests.swift; sourceTree = "<group>"; };
 		FF379B662401B3E10095B087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,6 +165,9 @@
 			children = (
 				607FACEB1AFB9204008FA782 /* EmojiFlagTests.swift */,
 				FF171E7124031D8B005AF275 /* CountryTableViewDelegateTests.swift */,
+				FF171E73240516ED005AF275 /* TopAttachedNavigationBarDelageteTests.swift */,
+				FF171E7524051C1A005AF275 /* CountryTableViewDataSourceTests.swift */,
+				FF171E7724052DFB005AF275 /* BSCountryViewControllerTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -406,8 +415,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF171E74240516ED005AF275 /* TopAttachedNavigationBarDelageteTests.swift in Sources */,
+				FF171E7624051C1A005AF275 /* CountryTableViewDataSourceTests.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* EmojiFlagTests.swift in Sources */,
 				FF171E7224031D8B005AF275 /* CountryTableViewDelegateTests.swift in Sources */,
+				FF171E7824052DFB005AF275 /* BSCountryViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
