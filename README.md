@@ -21,9 +21,30 @@ pod 'BSCountryViewController'
 ## Usage
 
 ```swift
-    let vc = BSCountryViewController()
-    vc.delegate = self
-    present(vc, animated: true, completion: nil)
+    import UIKit
+    import BSCountryViewController
+
+    class ViewController: UIViewController {
+        
+        @IBAction func didTapPresentCountriesPickerButton() {
+            let vc = BSCountryViewController()
+            vc.delegate = self
+            present(vc, animated: true, completion: nil)
+        }
+    }
+
+    extension ViewController: BSCountryViewControllerDelegate {
+        func didSelectRegions(_ regions: [String]) {
+            debugPrint("--- didSelectRegions ---")
+            debugPrint(regions)
+        }
+        
+        func didTapDoneButton(with regions: [String]?) {
+            debugPrint("--- didTapDoneButton ---")
+            debugPrint(regions ?? "regions array is nil")
+            dismiss(animated: true, completion: nil)
+        }
+    }
 ```
 
 ## Screenshot
