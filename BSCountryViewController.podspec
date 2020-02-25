@@ -15,5 +15,5 @@ Present a list of continents and countries and when a user select one of them be
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Sources/BSCountryViewController/**/*'
+  s.source_files = 'Classes/**/*'
 end
