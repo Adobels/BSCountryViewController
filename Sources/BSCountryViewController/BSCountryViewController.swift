@@ -49,6 +49,10 @@ public class BSCountryViewController: UIViewController {
         // Objects
         tableViewDataSource = CountryTableViewDataSource()
         tabelViewDelegate = CountryTableViewDelegate()
+<<<<<<< HEAD
+=======
+        tabelViewDelegate.delegate = self
+>>>>>>> hotfix/not-calling-delegate
         tableView.dataSource = tableViewDataSource
         tableView.delegate = tabelViewDelegate
         

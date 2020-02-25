@@ -123,11 +123,11 @@ class CountryTableViewDataSourceTests: XCTestCase {
         XCTAssertEqual(regions.last, "VA")
     }
     
-    func testDidSelectWrongSection() {
+    func testDidSelectFirstCountry() {
         let dataSource = CountryTableViewDataSource()
         XCTAssertGreaterThan(dataSource.countries.count, 0)
-        dataSource.didSelect(rowAt: IndexPath(row: 0, section: 2))
-        XCTAssertEqual(dataSource.countries.count, 0)
+        dataSource.didSelect(rowAt: IndexPath(row: 0, section: 1))
+        XCTAssertGreaterThan(dataSource.countries.count, 0)
     }
     
 }
