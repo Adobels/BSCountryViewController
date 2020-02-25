@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BSContryViewController.h"
 
 FOUNDATION_EXPORT double BSCountryViewControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char BSCountryViewControllerVersionString[];

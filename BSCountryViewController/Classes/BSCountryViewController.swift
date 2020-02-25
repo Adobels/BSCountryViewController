@@ -28,7 +28,7 @@ public class BSCountryViewController: UIViewController {
             bundle: Bundle(for: Self.self))
     }
     
-    @IBAction func didTapDoneButton() {
+    @IBAction public func didTapDoneButton() {
         self.didTapDoneButton(with: selectedRegions)
     }
     

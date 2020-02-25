@@ -12,13 +12,21 @@ public class CountryTableViewDelegate: NSObject, UITableViewDelegate {
     @IBOutlet public weak var delegate: BSCountryViewControllerDelegate?
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        delegateDidSelectRegions(tableView, didSelectRowAt: indexPath)
+        reloadCountriesSectionIfDidSelectContinent(tableView, didSelectRowAt: indexPath)
+    }
+    
+    // MARK: - Private methods
+    private func reloadCountriesSectionIfDidSelectContinent(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let tableViewDataSource = tableView.dataSource as? CountryTableViewDataSource
-        if let selctedRegion = tableViewDataSource?.regions(for: indexPath) {
-            delegate?.didSelectRegions(selctedRegion)
-            
-            if indexPath.section == Section.continents.rawValue {
-                tableViewDataSource?.countries = selctedRegion
-            }
+        tableViewDataSource?.didSelect(rowAt: indexPath)
+    }
+    
+    private func delegateDidSelectRegions(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let tableViewDataSource = tableView.dataSource as? CountryTableViewDataSource else {
+            return
         }
+        let selectedRegion = tableViewDataSource.regions(for: indexPath)
+        delegate?.didSelectRegions(selectedRegion)
     }
 }

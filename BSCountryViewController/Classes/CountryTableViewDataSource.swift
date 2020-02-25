@@ -13,13 +13,13 @@ public class CountryTableViewDataSource: NSObject, UITableViewDataSource {
         switch indexPath.section {
         case Section.continents.rawValue:
             switch indexPath.row {
-            case 0: return dataSourceOfCountriesByContinent[ContinentIdentificator.world.rawValue] ?? []
-            case 1: return dataSourceOfCountriesByContinent[ContinentIdentificator.africa.rawValue] ?? []
-            case 2: return dataSourceOfCountriesByContinent[ContinentIdentificator.asia.rawValue] ?? []
-            case 3: return dataSourceOfCountriesByContinent[ContinentIdentificator.europe.rawValue] ?? []
-            case 4: return dataSourceOfCountriesByContinent[ContinentIdentificator.northAmerica.rawValue] ?? []
-            case 5: return dataSourceOfCountriesByContinent[ContinentIdentificator.oceania.rawValue] ?? []
-            case 6: return dataSourceOfCountriesByContinent[ContinentIdentificator.southAmerica.rawValue] ?? []
+            case 0: return dataSourceOfCountriesByContinent[ContinentIdentificator.world.rawValue]!
+            case 1: return dataSourceOfCountriesByContinent[ContinentIdentificator.africa.rawValue]!
+            case 2: return dataSourceOfCountriesByContinent[ContinentIdentificator.asia.rawValue]!
+            case 3: return dataSourceOfCountriesByContinent[ContinentIdentificator.europe.rawValue]!
+            case 4: return dataSourceOfCountriesByContinent[ContinentIdentificator.northAmerica.rawValue]!
+            case 5: return dataSourceOfCountriesByContinent[ContinentIdentificator.oceania.rawValue]!
+            case 6: return dataSourceOfCountriesByContinent[ContinentIdentificator.southAmerica.rawValue]!
             default: return []
             }
         case Section.countries.rawValue:
@@ -78,6 +78,14 @@ public class CountryTableViewDataSource: NSObject, UITableViewDataSource {
             return "Countries"
         default: return nil
         }
+    }
+    
+    func didSelect(rowAt indexPath: IndexPath) {
+        guard indexPath.section == Section.continents.rawValue else {
+            countries = []
+            return
+        }
+        countries = regions(for: indexPath)
     }
 }
 
