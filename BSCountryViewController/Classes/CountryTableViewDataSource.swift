@@ -82,7 +82,6 @@ public class CountryTableViewDataSource: NSObject, UITableViewDataSource {
     
     func didSelect(rowAt indexPath: IndexPath) {
         guard indexPath.section == Section.continents.rawValue else {
-            countries = []
             return
         }
         countries = regions(for: indexPath)

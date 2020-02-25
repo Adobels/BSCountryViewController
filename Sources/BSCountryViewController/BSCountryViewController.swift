@@ -49,6 +49,7 @@ public class BSCountryViewController: UIViewController {
         // Objects
         tableViewDataSource = CountryTableViewDataSource()
         tabelViewDelegate = CountryTableViewDelegate()
+        tabelViewDelegate.delegate = self
         tableView.dataSource = tableViewDataSource
         tableView.delegate = tabelViewDelegate
         
